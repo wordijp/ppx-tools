@@ -19,11 +19,11 @@ PPX(差分のみ).CFGは差分です、適用前にバックアップを取り�
 他のプロジェクト、リポジトリが巨大だったものは別にしています
 
 - [wordijp/findutils-x(GitHub)](https://github.com/wordijp/findutils-x) - [Binary](https://github.com/wordijp/findutils-x/releases)(※バイナリを同封してます)
-    - [5日目(Paper Plane xUI(PPx)からエントリーへのfind)](http://qiita.com/wordijp/items/4d73c77f2993c309e246)で使用
+    - [5日目(Paper Plane xUI(PPx)からエントリーへのfind)](http://qiita.com/wordijp/items/4d73c77f2993c309e246)
 - [mattn/jvgrep(GitHub)](https://github.com/mattn/jvgrep) - [Binary](https://github.com/mattn/jvgrep/releases)
     - [6日目(Paper Plane xUI(PPx)からエントリーへのgrep)](http://qiita.com/wordijp/items/d90a64b807a7b39e4d1b)
 - [peco/peco(GitHub)](https://github.com/peco/peco) - [Binary](https://github.com/peco/peco/releases)
-    - [8日目(Paper Plane xUI(PPx)のListFileとpecoの関係)](http://qiita.com/wordijp/items/9f144af8f28a211c9448)で使用
+    - [8日目(Paper Plane xUI(PPx)のListFileとpecoの関係)](http://qiita.com/wordijp/items/9f144af8f28a211c9448)
 - [nkf](https://ja.osdn.net/projects/nkf/)
 
 # Licence
