@@ -1,0 +1,13 @@
+Unmerged paths:
+  (use "git reset HEAD <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+
+        both added:      src/lib/Screen.cpp
+        both added:      src/lib/Screen.h
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        data-ram/resource_cache/
+        data/fonts/
+        src/Game.cpp.bak
