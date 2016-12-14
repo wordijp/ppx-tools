@@ -1,0 +1,31 @@
+[color]
+	ui = auto
+[alias]
+	; PPxで使用
+	; ブランチ一覧を最新更新順で
+	branch-sort-date = !git for-each-ref --sort=-committerdate --format=\"%(refname:short)\" refs/heads/
+	bsd = !git branch-sort-date
+	; 最新ブランチ
+	branch-latest = !git branch-sort-date | head -n 1 | tr -d '\n'
+	bl = !git branch-latest
+	;
+	branch-name = !git branch | grep -E '^\\*' | sed -E 's/^\\* //' | tr -d '\n'
+	bn = !git branch-name
+	;
+	sc = !git stash-commit
+	scl = !git stash-commit --list
+	scla = !git stash-commit --list --all
+[diff]
+	guitool = winmerge
+	tool = winmerge
+[difftool "winmerge"]
+	path = E:/tool/favorite/WinMerge/WinMergeU.exe
+	cmd = \"E:/tool/favorite/WinMerge/WinMergeU.exe\" -e -x -ub -wl -dl \"Base\" -fr -dr \"Mine\" \"$LOCAL\" \"$REMOTE\"
+[merge]
+	guitool = winmerge
+	tool = winmerge
+[mergetool "winmerge"]
+	path = E:/tool/favorite/WinMerge/WinMergeU.exe
+	cmd = \"E:/tool/favorite/WinMerge/WinMergeU.exe\" -e -x -ub -wl -dl \"Other\" -fm -dm \"Merge\" -wr -dr \"Mine\" \"$LOCAL\" \"$BASE\" \"$REMOTE\" -o \"$MERGED\"
+[core]
+	editor = \"E:/tool/Developer/GitExtensions/GitExtensions.exe\" fileeditor
