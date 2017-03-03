@@ -22,7 +22,7 @@ function getLineNumber(str) {
 ///
 
 var line_path = (function() {
-	var arg = PPx.Arguments.item(0);
+	var args = PPx.Arguments.item(0);
 	if (('' + args) == "") {
 		// ƒLƒƒƒ“ƒZƒ‹
 		PPx.Quit(-1);
