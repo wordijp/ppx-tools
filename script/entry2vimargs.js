@@ -22,11 +22,12 @@ function getLineNumber(str) {
 ///
 
 var line_path = (function() {
-	var args = PPx.Arguments.item(0);
+	var args = PPx.Arguments;
 	if (('' + args) == "") {
 		// ƒLƒƒƒ“ƒZƒ‹
 		PPx.Quit(-1);
 	}
+	var arg = PPx.Arguments.item(0);
 	if (arg == "") {
 		PPx.Echo('arg is empty');
 		PPx.Quit(-1);
