@@ -23,6 +23,10 @@ function getLineNumber(str) {
 
 var line_path = (function() {
 	var arg = PPx.Arguments.item(0);
+	if (('' + args) == "") {
+		// ƒLƒƒƒ“ƒZƒ‹
+		PPx.Quit(-1);
+	}
 	if (arg == "") {
 		PPx.Echo('arg is empty');
 		PPx.Quit(-1);
