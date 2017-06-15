@@ -1,11 +1,13 @@
 #coding: utf-8
 
+require 'kconv'
+
 sedargfile = ARGV[0]
 sedffile = ARGV[1]
 sedarg = File.read(sedargfile)
 
 while STDIN.gets
-  a = $_.split(':')
+  a = NKF.nkf('-w', $_).split(':') # to utf8
   fmt = '%ss/%s/g'
 
   str = nil
